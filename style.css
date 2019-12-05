@@ -1,0 +1,47 @@
+body {
+    color: rgb(0,0,0);
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: lighter;
+    font-family: 'Lora', serif;
+    margin: 0;
+  }
+
+.container {
+    width: 700px;
+    margin: 50px auto;
+    align-content: center;
+    text-align: center;
+    }
+
+.banner {
+    background-image: url(https://source.unsplash.com/collection/190727/1600x900);
+    background-size: cover;
+    color: white;
+    padding: 120px 0;
+    align-content: center;
+}
+
+.title {
+      font-size: 38px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+}
+
+.sub-title {
+  font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    color: black;
+    opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+a:hover {
+  background-color: grey
+}
